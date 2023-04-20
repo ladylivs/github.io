@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Olivia Tooker Portfolio</title>
+    <title>Olivia Tooker</title>
+    <nav>  <!-- navigation bar TODO: make into a top bar-->
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+           <!--  <li><a href="#projects"></a>Projects</a></li>      solve this later, and remeber to change it on each html sheet please-->
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="funstuff.html">Fun Stuff</a></li>
+        </ul>
+    </nav>
 
 </head>
 <body>
-    <nav>  <!-- navigation bar TODO: make into a top bar-->
-        <h1>Olivia Tooker</h1>
-        <ul>
-            <li><a id="#about-me">About Me</a></li>
-            <li><a id="#projects"></a>Projects</a> </li>
-            <li><a href="contact.html">Contact</a></li>
-            <li>Fun Stuff</li>
-        </ul>
-    </nav>
+
     <main> <!-- about me TODO: add photo, make beautiful -->
         <section id="about-me">
             <div id="about-me-container">
@@ -30,13 +30,26 @@
                 <img class="selfie" src="" width="" height=""> 
             </div>
          </section>
-         <section id="projects">  <!-- projects section TODO: adding photos, summaries, etc.  -->
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="#projectone">Project One</a></li>
-                <li><a href="#projecttwo">Project Two</a></li>
-                <li><a href="#projectthree">Project Three</a></li>
-              </ul>
+         <section>  <!-- projects section TODO: adding photos, summaries, etc.  -->
+            <h2 id="projects">Projects</h2>
+            <div id="projects-container">
+
+             <section>
+                <h3>Project One</h3>
+                <img src="images/mort1.png" width=200px alt="a placeholder photo of Morticia Addams">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat sunt amet non temporibus sapiente, recusandae repellendus ab cum dolorum vitae quas nesciunt, ipsa perferendis. Distinctio sit maiores architecto quasi.</p>
+            </section> 
+            <section>
+                <h3>Project Two</h3>
+                <img src="images/mort2.jpg" width=200px alt="a placeholder photo of Morticia Addams">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat sunt amet non temporibus sapiente, recusandae repellendus ab cum dolorum vitae quas nesciunt, ipsa perferendis. Distinctio sit maiores architecto quasi.</p>
+            </section> 
+            <section>
+                <h3>Project Three</h3>
+                <img src="images/mort3.png" width=200px alt="a placeholder photo of Morticia Addams">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat sunt amet non temporibus sapiente, recusandae repellendus ab cum dolorum vitae quas nesciunt, ipsa perferendis. Distinctio sit maiores architecto quasi.</p>
+            </section> 
+            </div>
          </section>
     </main>
     <script type="text/Javascript" src="scripts.js" ></script>

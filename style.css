@@ -1,5 +1,5 @@
 h1 {
-    font-size: 50px;
+    font-size: 20px;
 }
 
 p {
@@ -9,4 +9,43 @@ p {
 
 body {
     background-color: #CDB4DB;
+    height: 125vh;  
+    margin-top: 80px;  
+    padding: 30px;  
+    background-size: cover;  
+    font-family: sans-serif;  
 }
+
+head {
+
+    background-color: #BDE0FE;  
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 30px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 #256EFF; 
+
+}
+
+head * {  
+    display: inline;  
+    }  
+
+
+nav li {  
+    margin: 20px;  
+    display: inline;
+    }  
+
+nav ul {
+    background-color: #BDE0FE
+}
+
+
+head li a {  
+    color: blue;  
+    text-decoration: none;  
+    }  
