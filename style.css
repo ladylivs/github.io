@@ -49,3 +49,11 @@ head li a {
     color: blue;  
     text-decoration: none;  
     }  
+
+img#firstPhoto {
+    display: initial;
+}
+
+img#secondPhoto {
+    display: none;
+}
