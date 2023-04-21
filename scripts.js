@@ -1,29 +1,11 @@
 console.log("helloooooooo");
 
-const swapTwoImages = () => {
-    if (document.getElementById('firstPhoto').display = 'initial') {
-        document.getElementById('firstPhoto').display = 'none';
-        document.getElementById('secondPhoto').display = 'initial';
-    }
-    
+function toogle(image, anArrayOfImageSources) {
+
 }
 
 
-function changeToSecondImage(){
-    document.getElementById("firstPhoto").addEventListener('click', () => {
-        document.getElementById("firstPhoto").display = "none";
-        document.getElementById("secondPhoto").display = "initial";
-    });
-    
-    
-}
-
-
-// function changeToFirstImage () {
-
-// }
-
-
+// was looking at code on this site until it made sense: http://jsfiddle.net/Regisc/N7bgz/2/
 
 
 

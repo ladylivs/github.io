@@ -51,9 +51,11 @@ head li a {
     }  
 
 img#firstPhoto {
+    position: absolute;
     display: initial;
 }
 
 img#secondPhoto {
+    position: absolute;
     display: none;
 }
