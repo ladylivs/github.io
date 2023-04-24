@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Olivia Tooker</title>
+    <title>Portfolio</title>
     <nav>  <!-- navigation bar TODO: make into a top bar-->
+        <h1>Olivia Tooker</h1>
         <ul>
             <li><a href="#about-me">About Me</a></li>
            <!--  <li><a href="#projects"></a>Projects</a></li>      solve this later, and remeber to change it on each html sheet please-->
@@ -36,43 +37,21 @@
 
              <section>
                 <h3>Project One</h3>
-
-
-
-
-
-<!-- testing the interaction with just this first image, when/if it works I'll change the others and hope for the best-->
-
-
-                <div class="projectPhotos">
-                     <img class="clickToChangePhoto" id="projectOneFirstImage" src="images/mort1.png" onlick="toogle(this, [images/booklove.jpg])"  width=200px alt="a placeholder photo of Morticia Addams that changes to a book with a heart when clicked">
-                </div>
-
-
-
-
-
-
-
-
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat sunt amet non temporibus sapiente, recusandae repellendus ab cum dolorum vitae quas nesciunt, ipsa perferendis. Distinctio sit maiores architecto quasi.</p>
+                <button class="read-more" id="read-more1">Summary</button>
+                <img class="project-photos" id="projectOneImage" src="images/mort1.png" width=200px alt="a photo of Morticia Addams">
+                <p id="summary1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat sunt amet non temporibus sapiente, recusandae repellendus ab cum dolorum vitae quas nesciunt, ipsa perferendis. Distinctio sit maiores architecto quasi.</p>
             </section> 
             <section>
                 <h3>Project Two</h3>
-                <div class="projectPhotos">
-                    <img class="firstPhoto" onclick="swapTwoImages()" src="images/mort2.jpg" width=200px alt="a placeholder photo of Morticia Addams">
-                    <img class="secondPhoto" onclick="swapTwoImages()" src="images/booklove.jpg" width=200px alt="a placeholder photo of a heart in a book">
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat sunt amet non temporibus sapiente, recusandae repellendus ab cum dolorum vitae quas nesciunt, ipsa perferendis. Distinctio sit maiores architecto quasi.</p>
+                <button class="read-more" id="read-more2">Summary</button>
+                <img class="project-photos" src="images/mort2.jpg" width=200px alt="a placeholder photo of Morticia Addams">
+                <p id="summary2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat sunt amet non temporibus sapiente, recusandae repellendus ab cum dolorum vitae quas nesciunt, ipsa perferendis. Distinctio sit maiores architecto quasi.</p>
             </section> 
             <section>
                 <h3>Project Three</h3>
-                <div class="projectPhotos">
-                    <img class="change-photo" onclick='toogle(this)' src="images/mort3.png" width=200px alt="a placeholder photo of Morticia Addams">
-                    <img class="secondPhoto" onclick="swapTwoImages()" src="images/booklove.jpg" width=200px alt="a placeholder photo of a heart in a book">
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat sunt amet non temporibus sapiente, recusandae repellendus ab cum dolorum vitae quas nesciunt, ipsa perferendis. Distinctio sit maiores architecto quasi.</p>
+                <button class="read-more" id="read-more3">Summary</button>
+                <img class="change-photo" src="images/mort3.png" width=200px alt="a placeholder photo of Morticia Addams">
+                <p id="summary3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat sunt amet non temporibus sapiente, recusandae repellendus ab cum dolorum vitae quas nesciunt, ipsa perferendis. Distinctio sit maiores architecto quasi.</p>
             </section> 
             </div>
          </section>
